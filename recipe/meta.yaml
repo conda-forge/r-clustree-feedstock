@@ -1,4 +1,4 @@
-{% set version = "0.4.4" %}
+{% set version = "0.5.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/clustree_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/clustree/clustree_{{ version }}.tar.gz
-  sha256: 7a6100f88c9a6e8d10b253ee227ecf1dc4e84e418eb8da64cd801d2a158b956f
+  sha256: a87f65dc0489af77807ed27de67e905699f21f50bcfba6a84353b9a846a84ac1
 
 build:
   merge_build_host: true  # [win]
