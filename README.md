@@ -1,11 +1,11 @@
-About r-clustree
-================
+About r-clustree-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-clustree-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/lazappi/clustree
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-clustree-feedstock/blob/main/LICENSE.txt)
 
 Summary: Deciding what resolution to use can be a difficult question when approaching a clustering analysis. One way to approach this problem is to look at how samples move as the number of clusters increases. This package allows you to produce clustering trees, a visualisation for interrogating clusterings as resolution increases.
 
